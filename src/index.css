@@ -1,0 +1,710 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Barlow:Black';
+  src: url('https://static.figma.com/font/Barlow-Black_2') format('woff2');
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'Barlow:Regular';
+  src: url('https://static.figma.com/font/Barlow-Regular_2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Barlow:ExtraBold';
+  src: url('https://static.figma.com/font/Barlow-ExtraBold_2') format('woff2');
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Baskervville:Bold';
+  src: url('https://static.figma.com/font/Baskervville_wght__1') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Baskervville:Regular';
+  src: url('https://static.figma.com/font/Baskervville_wght__1') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Baskervville:Medium';
+  src: url('https://static.figma.com/font/Baskervville_wght__1') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Baskervville:SemiBold';
+  src: url('https://static.figma.com/font/Baskervville_wght__1') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Finger Paint:Regular';
+  src: url('https://static.figma.com/font/FingerPaint-Regular_1') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Geist:Regular';
+  src: url('https://static.figma.com/font/Geist_wght__1') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Geist:Medium';
+  src: url('https://static.figma.com/font/Geist_wght__1') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Geist:SemiBold';
+  src: url('https://static.figma.com/font/Geist_wght__1') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Inter:Regular';
+  src: url('https://static.figma.com/font/Inter_1') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Inter:Medium';
+  src: url('https://static.figma.com/font/Inter_1') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Inter:Semi Bold';
+  src: url('https://static.figma.com/font/Inter_1') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Inter:Bold';
+  src: url('https://static.figma.com/font/Inter_1') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Inter:Extra Bold';
+  src: url('https://static.figma.com/font/Inter_1') format('woff2');
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Lexend Exa:ExtraBold';
+  src: url('https://static.figma.com/font/LexendExa_wght__1') format('woff2');
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Lexend:Regular';
+  src: url('https://static.figma.com/font/Lexend_wght__1') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Lexend:Bold';
+  src: url('https://static.figma.com/font/Lexend_wght__1') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Lexend:ExtraBold';
+  src: url('https://static.figma.com/font/Lexend_wght__1') format('woff2');
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Metropolis:Extra Bold';
+  src: url('/fonts/Metropolis-Extra_Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Metropolis:Medium';
+  src: url('/fonts/Metropolis-Medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Metropolis:Semi Bold';
+  src: url('/fonts/Metropolis-Semi_Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Quintessential:Regular';
+  src: url('https://static.figma.com/font/Quintessential-Regular_1') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@layer base {
+  html {
+    background: #17171a;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-width: 320px;
+    min-height: 100dvh;
+    overflow-x: hidden;
+    background: #17171a;
+  }
+
+  button,
+  a {
+    touch-action: manipulation;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+#root,
+.site,
+.site > div {
+  min-height: 100dvh;
+  width: 100%;
+}
+
+.site {
+  /* Left/right edge of page content. Matches the Home page hero, cards and
+     philosophy sections at every screen size. */
+  --page-gutter: 24px;
+  --page-gutter-top: 72px;
+  --page-gutter-bottom: 96px;
+}
+
+@media (min-width: 641px) {
+  .site {
+    --page-gutter: clamp(48px, 10vw, 120px);
+    --page-gutter-top: 112px;
+    --page-gutter-bottom: 160px;
+  }
+}
+
+@media (min-width: 901px) {
+  .site {
+    --page-gutter-top: 160px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .site {
+    --page-gutter: calc(50% - 490px);
+    --page-gutter-top: 160px;
+    --page-gutter-bottom: 160px;
+  }
+}
+
+/* Project pages: same edges as the Home page (left, right, top, bottom). */
+.project-page {
+  width: 100%;
+  max-width: none;
+  margin-inline: 0;
+  box-sizing: border-box;
+}
+
+.case-study [data-name='projects-list'] {
+  padding-inline: var(--page-gutter) !important;
+  padding-top: var(--page-gutter-top) !important;
+  padding-bottom: var(--page-gutter-bottom) !important;
+  height: auto !important;
+}
+
+.case-study [data-name='projects-list'] > .absolute {
+  left: var(--page-gutter) !important;
+}
+
+.case-study [data-name='works-wrapper'] {
+  width: 100% !important;
+  max-width: 980px;
+}
+
+.case-study [data-name='footer'] {
+  width: 100% !important;
+}
+
+.site [class*='Baskerville:Regular'] {
+  font-family: 'Baskervville:Regular', Georgia, serif;
+}
+
+@keyframes button-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  45% {
+    transform: translateY(-7px);
+  }
+  70% {
+    transform: translateY(-3px);
+  }
+}
+
+.site [data-name='header'] {
+  position: sticky !important;
+  top: 0;
+  z-index: 100;
+}
+
+.site [data-name='nav-links'] [data-name='Frame'] p,
+.site [data-name='footer-links-grid'] a,
+.site [data-name='footer-links-grid'] p {
+  transition: color 180ms ease;
+}
+
+.site [data-name='nav-links'] [data-name='Frame']:hover p,
+.site [data-name='nav-links'] [data-name='Frame']:focus-visible p,
+.site [data-name='footer-links-grid'] a:hover,
+.site [data-name='footer-links-grid'] a:focus-visible,
+.site [data-name='footer-links-grid'] p:hover {
+  color: #42c9ae !important;
+}
+
+.site [data-name='secondary-link'] {
+  cursor: pointer;
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease;
+}
+
+.site [data-name='secondary-link'] p {
+  transition: color 180ms ease;
+}
+
+.site [data-name='secondary-link']:hover,
+.site [data-name='secondary-link']:focus-visible {
+  background-color: #42c9ae !important;
+  border-color: #42c9ae !important;
+}
+
+.site [data-name='secondary-link']:hover p,
+.site [data-name='secondary-link']:focus-visible p {
+  color: #17171a !important;
+}
+
+.site [data-name='cta'] {
+  cursor: pointer;
+}
+
+.site [data-name='cta']:hover,
+.site [data-name='cta']:focus-visible {
+  animation: button-bounce 520ms ease;
+}
+
+.page-home [data-name='selected-work'] > a:hover,
+.page-home [data-name='selected-work'] > a:focus-visible {
+  animation: button-bounce 520ms ease;
+}
+
+@media (min-width: 1200px) {
+  .site [data-name='header'] {
+    padding-inline: 100px !important;
+  }
+
+  .page-home [data-name='hero'],
+  .page-home [data-name='philosophy'],
+  .page-about > div > [data-name='About me'],
+  .page-contact > div > [data-name='About me'] {
+    padding-inline: calc(50% - 490px) !important;
+  }
+
+  .page-about > div > [data-name='About me'],
+  .page-contact > div > [data-name='About me'] {
+    justify-content: center;
+  }
+
+  .page-home [data-name='selected-work'] > [data-name='section-header'],
+  .page-home
+    [data-name='selected-work']
+    > [data-name='Project 1 Curious Connection'],
+  .page-home [data-name='selected-work'] > [data-name='CL Project 3'] {
+    left: calc(50% - 490px) !important;
+  }
+
+  .page-home [data-name='selected-work'] > [data-name='section-header'] {
+    width: 980px !important;
+  }
+
+  .page-home [data-name='selected-work'] > [data-name='Project 2 Victorious'] {
+    left: calc(50% + 30px) !important;
+  }
+
+  .case-study [data-name='works-wrapper'] {
+    align-self: center;
+  }
+
+}
+
+@media (max-width: 1199px) {
+  .site [data-name='header'] {
+    padding: 28px 48px !important;
+  }
+
+  .site [data-name='nav-links'] {
+    gap: 28px !important;
+  }
+
+  .page-home [data-name='hero'] {
+    padding: 112px clamp(48px, 10vw, 120px) !important;
+  }
+
+  .page-home [data-name='headline-container'] > p:first-child {
+    width: 100% !important;
+  }
+
+  .page-home [data-name='selected-work'] {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 64px 60px;
+    height: auto !important;
+    padding: 0 clamp(48px, 10vw, 120px);
+  }
+
+  .page-home [data-name='selected-work'] > * {
+    position: static !important;
+    width: 100% !important;
+  }
+
+  .page-home [data-name='selected-work'] > [data-name='section-header'] {
+    grid-column: 1 / -1;
+  }
+
+  .page-home [data-name='selected-work'] > a > div:first-child {
+    height: auto !important;
+    aspect-ratio: 459.804 / 394.074;
+  }
+
+  .page-home [data-name='selected-work'] > a > div:last-child {
+    height: auto !important;
+    min-height: 220px;
+  }
+
+  .page-home [data-name='philosophy'] {
+    padding-inline: clamp(48px, 10vw, 120px) !important;
+  }
+
+  .page-home [data-name='philosophy'] > p {
+    max-width: 900px;
+    width: 100% !important;
+  }
+
+  .page-about > div > [data-name='About me'],
+  .page-contact > div > [data-name='About me'] {
+    padding-inline: clamp(48px, 10vw, 120px) !important;
+  }
+
+  .site [data-name='footer'] {
+    width: 100% !important;
+    padding-inline: 48px !important;
+  }
+
+  .case-study [data-name='works-wrapper'],
+  .case-study [data-name='work-block-0'] {
+    width: 100% !important;
+  }
+
+  .case-study [data-name='works-wrapper'] > *,
+  .case-study [data-name='work-block-0'] > * {
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .site [data-name='header'] {
+    padding: 22px 24px !important;
+  }
+
+  .site [data-name='nav-links'] {
+    gap: 18px !important;
+  }
+
+  .site [data-name='nav-links'] p,
+  .site [data-name='nav-links'] a {
+    font-size: 15px !important;
+  }
+
+  .site [data-name='footer'] {
+    gap: 40px !important;
+    padding: 56px 24px 32px !important;
+  }
+
+  .site [data-name='footer-top'] {
+    align-items: flex-start !important;
+    gap: 32px;
+  }
+
+  .site [data-name='footer-brand'] {
+    width: auto !important;
+  }
+
+  .case-study [data-name='projects-list'] {
+    display: flex !important;
+    flex-direction: column;
+    gap: 64px;
+    height: auto !important;
+  }
+
+  .case-study [data-name='projects-list'] > a:first-child {
+    left: auto !important;
+    top: auto !important;
+    position: static !important;
+  }
+
+  .case-study [data-name='projects-list'] > a:not([href]) {
+    left: auto !important;
+    margin-bottom: -40px;
+    order: -1;
+    position: static !important;
+    top: auto !important;
+  }
+
+  .case-study [data-name='works-wrapper'] {
+    display: flex !important;
+    flex-direction: column;
+    gap: 180px !important;
+    height: auto !important;
+    width: 100% !important;
+  }
+
+  .case-study [data-name='work-block-0'] {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 80px !important;
+    height: auto !important;
+    width: 100% !important;
+  }
+
+  .case-study [data-name='work-content'],
+  .case-study [data-name='work-content'] > * {
+    height: auto !important;
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+
+  .case-study [data-name='work-content'] {
+    flex: none !important;
+  }
+
+  .case-study [data-name='works-wrapper'] > .absolute,
+  .case-study [data-name='projects-list'] > .absolute {
+    left: auto !important;
+    top: auto !important;
+    position: static !important;
+    height: auto !important;
+    width: 100% !important;
+  }
+
+  .case-study [data-name='work-block-0'] > *,
+  .case-study [data-name='works-wrapper'] > * {
+    max-width: 100% !important;
+  }
+
+  .case-study [data-name='work-block-0'] > div:not([data-name='work-content']) {
+    height: auto !important;
+    width: 100% !important;
+  }
+
+  .case-study [data-name='projects-list'] img:not([src$='.svg']) {
+    object-fit: contain;
+  }
+
+  .case-study [data-name='projects-list'] * {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .site [data-name='header'] {
+    padding: 16px !important;
+  }
+
+  .site [data-name='header'] [data-name='logo-group'] {
+    transform: scale(0.78);
+    transform-origin: left center;
+    width: 32px !important;
+  }
+
+  .site [data-name='nav-links'] {
+    gap: 12px !important;
+  }
+
+  .site [data-name='nav-links'] p,
+  .site [data-name='nav-links'] a {
+    font-size: 12px !important;
+  }
+
+  .page-home [data-name='hero'] {
+    padding: 72px 24px 96px !important;
+  }
+
+  .page-home [data-name='headline-container'] {
+    gap: 14px !important;
+  }
+
+  .page-home [data-name='headline-container'] > p:first-child,
+  .page-home [data-name='headline-container'] > p:first-child span {
+    font-size: 28px !important;
+    height: auto !important;
+  }
+
+  .page-home [data-name='headline-container'] > p:last-child {
+    font-size: clamp(46px, 13vw, 64px) !important;
+  }
+
+  .page-home [data-name='intro-text'] {
+    width: 100% !important;
+  }
+
+  .page-home [data-name='cta-row'] {
+    align-items: flex-start !important;
+    flex-wrap: wrap;
+  }
+
+  .page-home [data-name='selected-work'] {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 64px;
+    padding-inline: 24px;
+  }
+
+  .page-home [data-name='selected-work'] > [data-name='section-header'] {
+    grid-column: auto;
+  }
+
+  .page-home [data-name='section-header'] [data-name='text-content'] > p,
+  .page-about [data-name='section-header'] [data-name='text-content'] > p,
+  .page-contact [data-name='section-header'] [data-name='text-content'] > p {
+    font-size: clamp(42px, 13vw, 60px) !important;
+  }
+
+  .page-home [data-name='philosophy'] {
+    padding: 96px 24px 48px !important;
+  }
+
+  .page-home [data-name='philosophy'] + [data-name='philosophy'] {
+    padding-block: 48px 96px !important;
+  }
+
+  .page-home [data-name='philosophy'] > p:first-child {
+    height: auto !important;
+    font-size: 34px !important;
+  }
+
+  .page-about > div > [data-name='About me'],
+  .page-contact > div > [data-name='About me'] {
+    align-items: flex-start !important;
+    flex-direction: column !important;
+    padding: 80px 24px 96px !important;
+  }
+
+  .page-about > div > [data-name='About me'] > [data-name='About me'],
+  .page-contact > div > [data-name='About me'] > [data-name='About me'] {
+    gap: 56px !important;
+    height: auto !important;
+    width: 100% !important;
+  }
+
+  .page-about [data-name='section-header'],
+  .page-contact [data-name='section-header'] {
+    height: auto !important;
+    min-height: 96px;
+  }
+
+  .page-about [data-name='section-header'] [data-name='text-content'],
+  .page-contact [data-name='section-header'] [data-name='text-content'] {
+    height: auto !important;
+  }
+
+  .page-about [data-name='section-header'] > [data-name='Logo'],
+  .page-contact [data-name='section-header'] > [data-name='Logo'] {
+    display: none;
+  }
+
+  .page-about [data-node-id='0:256'] p:first-child {
+    font-size: 27px !important;
+  }
+
+  .page-about [data-node-id='0:256'] p {
+    font-size: 19px !important;
+  }
+
+  .page-contact [data-name='About me'] [data-name='social-brief'],
+  .page-contact [data-name='About me'] > [data-name='secondary-link'] {
+    left: auto !important;
+    position: static !important;
+    top: auto !important;
+  }
+
+  .page-contact [data-name='About me'] > [data-name='About me'] > p {
+    font-size: 38px !important;
+    height: auto !important;
+  }
+
+  .site [data-name='footer-top'] {
+    flex-direction: column;
+  }
+
+  .site [data-name='col-social'] {
+    flex-wrap: wrap;
+    gap: 16px 24px !important;
+    white-space: normal !important;
+  }
+}
+
+/* Navigation bar: one typeface and one pointer cursor for every item */
+.site [data-name='nav-links'],
+.site [data-name='nav-links'] * {
+  cursor: pointer;
+}
+
+.site [data-name='nav-links'] p,
+.site [data-name='nav-links'] a {
+  font-family: 'Geist:Medium', 'Geist', 'Inter', system-ui, sans-serif;
+  font-weight: 500;
+}
+
+/* Home page project cards: one outline weight, one text layout */
+.page-home [data-name='selected-work'] > a {
+  border-width: 2px;
+}
+
+.page-home [data-name='selected-work'] > a > [data-name='Text'] {
+  flex: 1 1 auto;
+  height: auto !important;
+  min-height: 250px;
+  padding: 32px !important;
+  gap: 20px !important;
+  border: 0 !important;
+}
+
+/* Headings reserve two lines and sit on the bottom of that space, so the
+   gap to the body text is identical and the body text starts at the same
+   height on every card. */
+.page-home [data-name='selected-work'] > a > [data-name='Text'] > p:first-child {
+  display: flex;
+  align-items: flex-end;
+  min-height: 76px;
+  line-height: 38px !important;
+  margin: 0;
+}
+
+.page-home [data-name='selected-work'] > a > [data-name='Text'] > p:last-child {
+  line-height: 1.5 !important;
+  margin: 0;
+}
+
+@media (min-width: 1200px) {
+  .page-home [data-name='selected-work'] {
+    height: 1520px !important;
+  }
+}
