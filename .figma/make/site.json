@@ -1,0 +1,10 @@
+{
+  "description": "Keeps existing websites visually consistent across desktop and mobile, preventing overflow while preserving original content, layout, and image proportions.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
