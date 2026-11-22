@@ -188,7 +188,7 @@ export default function Project3Cl() {
           <p className="leading-[normal]">{`← Back `}</p>
         </a>
         <div
-          className="content-stretch flex flex-col gap-[180px] h-[7730px] items-start relative shrink-0 w-[980px]"
+          className="content-stretch flex flex-col gap-[180px] min-h-[7730px] items-start relative shrink-0 w-[980px]"
           data-node-id="0:537"
           data-name="works-wrapper"
         >
