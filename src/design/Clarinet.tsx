@@ -217,7 +217,7 @@ export default function Project3Cl() {
                 music and local bands to join.
               </p>
             </div>
-            <div
+            <div data-static="true" inert
               className="bg-[#17171a] border-[#f0f0f0] border-[2.188px] border-solid content-stretch flex flex-col h-[383px] items-start relative shrink-0 w-[440px]"
               data-node-id="0:542"
               data-name="CL"
@@ -305,7 +305,7 @@ export default function Project3Cl() {
                 <p className="leading-[1.6]">​</p>
               </div>
             </div>
-            <div
+            <div data-static="true" inert
               className="bg-[#17171a] border-[#f0f0f0] border-[2.194px] border-solid content-stretch flex flex-col items-start p-[20px] relative shrink-0 w-[500.769px]"
               data-node-id="0:552"
             >
@@ -355,7 +355,7 @@ export default function Project3Cl() {
                 </p>
               </div>
             </div>
-            <div
+            <div data-static="true" inert
               className="bg-[#17171a] border-[#f0f0f0] border-[1.913px] border-solid content-stretch flex flex-col items-center p-[20px] relative shrink-0 w-[441px]"
               data-node-id="0:558"
               data-name="Drawing"
@@ -388,7 +388,7 @@ export default function Project3Cl() {
               </div>
             </div>
           </div>
-          <div
+          <div data-static="true" inert
             className="absolute bg-[#17171a] border-[#f0f0f0] border-[2.511px] border-solid content-stretch flex items-start left-0 top-[2261px]"
             data-node-id="0:561"
             data-name="Achievement"
@@ -485,7 +485,7 @@ export default function Project3Cl() {
                 </p>
               </div>
             </div>
-            <div
+            <div data-static="true" inert
               className="bg-[#17171a] border-[#f0f0f0] border-[1.458px] border-solid gap-x-[13.944751739501953px] gap-y-[20.91712760925293px] grid grid-cols-[repeat(3,minmax(0,1fr))] grid-rows-[repeat(2,minmax(0,1fr))] h-[631px] p-[20px] relative shrink-0 w-[448.324px]"
               data-node-id="0:572"
               data-name="Wireframes"
@@ -1336,7 +1336,7 @@ export default function Project3Cl() {
                 </div>
               </div>
             </div>
-            <div
+            <div data-static="true" inert
               className="absolute bg-gradient-to-b border-[0.221px] border-black border-solid from-1/2 from-white h-[738.419px] left-[179px] overflow-clip rounded-[17.655px] to-[#999] top-[790px] w-[623px]"
               data-node-id="0:674"
               data-name="Music app presentation"
@@ -3287,16 +3287,16 @@ export default function Project3Cl() {
                 If you would like to see more...
               </p>
               <a
-                className="bg-[#42c9ae] content-stretch cursor-pointer flex items-center px-[25.817px] py-[17.212px] relative rounded-[11.474px] shrink-0 w-[230.922px]"
+                className="bg-[#42c9ae] content-stretch cursor-pointer flex items-center mt-[10px] px-[19.44px] py-[12.96px] relative rounded-[8.64px] shrink-0"
                 href="https://app.notion.com/p/26fd4cff8a2b8067a117e73192bb39da?v=26fd4cff8a2b814fa38c000c65f71af9"
                 data-node-id="0:870"
                 target="_blank"
                 data-name="cta"
               >
                 <p
-                  className="[word-break:break-word] font-['Metropolis:Semi_Bold'] leading-[normal] not-italic relative shrink-0 text-[#17171a] text-[22px] text-left whitespace-nowrap"
+                  className="[word-break:break-word] font-['Metropolis:Semi_Bold'] leading-[normal] not-italic relative shrink-0 text-[#17171a] text-[17.28px] text-left whitespace-nowrap"
                   data-node-id="0:871"
-                >{`View my Notion `}</p>
+                >{`View my Notion blog `}</p>
               </a>
             </div>
           </div>
@@ -3324,7 +3324,7 @@ export default function Project3Cl() {
               />
             </div>
           </div>
-          <div
+          <div data-static="true" inert
             className="absolute bg-[#17171a] border-2 border-[#f0f0f0] border-solid gap-x-[13.70389175415039px] gap-y-[20.555837631225586px] grid grid-cols-[repeat(3,minmax(0,1fr))] grid-rows-[repeat(2,minmax(0,1fr))] h-[620.101px] left-[539px] p-[20px] top-[4436px] w-[440.58px]"
             data-node-id="0:874"
             data-name="Wireframe final"
@@ -3874,7 +3874,7 @@ export default function Project3Cl() {
               Music App Prototype
             </p>
           </a>
-          <div
+          <div data-static="true" inert
             className="absolute bg-[#17171a] border-2 border-[#f0f0f0] border-solid gap-x-[40.223876953125px] gap-y-[33.82462692260742px] grid grid-cols-[repeat(3,minmax(0,1fr))] grid-rows-[repeat(2,minmax(0,1fr))] h-[1235.97px] left-0 p-[20px] top-[5558px] w-[980px]"
             data-node-id="0:965"
             data-name="Final clarinet design"

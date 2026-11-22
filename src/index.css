@@ -708,3 +708,21 @@
     height: 1520px !important;
   }
 }
+
+/* Clarinet wireframes and design images: fixed in place, not interactive.
+   No scrolling, sliding, animation, hover/click or dragging. */
+[data-static],
+[data-static] * {
+  pointer-events: none !important;
+  cursor: default !important;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  animation: none !important;
+  transition: none !important;
+}
+
+[data-static] [data-name='Scroll'],
+[data-static] .overflow-x-auto {
+  overflow: hidden !important;
+}
