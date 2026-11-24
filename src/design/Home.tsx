@@ -2,7 +2,7 @@ const assetPathPrefix = "/assets"
 const imgRectangle19 = `${assetPathPrefix}/00dad.png`
 const imgRectangle20 = `${assetPathPrefix}/87561.png`
 const imgRectangle21 = `${assetPathPrefix}/4de54.png`
-const imgRectangle22 = `${assetPathPrefix}/macktex-home-card.png`
+const imgRectangle22 = `${assetPathPrefix}/macktex-home-card-hd.jpg`
 const imgLine1 = `${assetPathPrefix}/c4fe1.svg`
 const imgLine2 = `${assetPathPrefix}/c8b8f.svg`
 
@@ -359,12 +359,12 @@ export default function PortfolioHome() {
             data-name="Text"
           >
             <p
-              className="font-['Barlow:ExtraBold'] font-extrabold relative shrink-0 text-[38px] text-white w-full"
+              className="font-['Roboto:Bold'] font-bold relative shrink-0 text-[38px] text-white w-full"
             >
               Macktex
             </p>
             <p
-              className="font-['Barlow:Regular'] relative shrink-0 text-[#e1e1e1] text-[18px] tracking-[0.36px] w-full"
+              className="font-['Roboto:Regular'] relative shrink-0 text-[#e1e1e1] text-[18px] tracking-[0.36px] w-full"
             >
               A side project building a brand identity for an Electrician and Event Tech.
             </p>

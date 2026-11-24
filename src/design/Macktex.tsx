@@ -1,13 +1,13 @@
 const assetPathPrefix = "/assets"
 const imgLine1 = `${assetPathPrefix}/c8b8f.svg`
 const imgLine12 = `${assetPathPrefix}/caea5.svg`
-const imgMacktexHero = `${assetPathPrefix}/macktex-hero.png`
+const imgMacktexHero = `${assetPathPrefix}/macktex-hero-hd.jpg`
 const imgResearch = `${assetPathPrefix}/macktex-research.png`
 const imgSketch = `${assetPathPrefix}/macktex-sketch.png`
 const imgExperiment1 = `${assetPathPrefix}/macktex-experiment-1.png`
 const imgExperiment2 = `${assetPathPrefix}/macktex-experiment-2.png`
-const imgCardDesign = `${assetPathPrefix}/macktex-card-design.png`
-const imgCardPhoto = `${assetPathPrefix}/macktex-card-photo.png`
+const imgCardDesign = `${assetPathPrefix}/macktex-card-design-hd.png`
+const imgCardPhoto = `${assetPathPrefix}/macktex-card-photo-hd.jpg`
 
 export default function Project4Macktex() {
   return (
@@ -129,12 +129,12 @@ export default function Project4Macktex() {
               data-name="work-content"
             >
               <p
-                className="font-['Barlow:ExtraBold'] leading-[48px] relative shrink-0 text-[46px] tracking-[0.92px] w-full"
+                className="font-['Roboto:Bold'] font-bold leading-[48px] relative shrink-0 text-[46px] tracking-[0.92px] w-full"
               >
                 Macktex
               </p>
               <p
-                className="font-['Barlow:Regular'] leading-[1.6] relative shrink-0 text-[22px] w-full"
+                className="font-['Roboto:Regular'] leading-[1.6] relative shrink-0 text-[22px] w-full"
               >
                 I am very passionate about branding so I decided to develop a brand identity for an Electrician and Event Tech who is looking to go self employed.
               </p>
