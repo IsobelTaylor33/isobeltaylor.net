@@ -2,6 +2,7 @@ const assetPathPrefix = "/assets"
 const imgRectangle19 = `${assetPathPrefix}/00dad.png`
 const imgRectangle20 = `${assetPathPrefix}/87561.png`
 const imgRectangle21 = `${assetPathPrefix}/4de54.png`
+const imgRectangle22 = `${assetPathPrefix}/macktex-home-card.png`
 const imgLine1 = `${assetPathPrefix}/c4fe1.svg`
 const imgLine2 = `${assetPathPrefix}/c8b8f.svg`
 
@@ -335,6 +336,37 @@ export default function PortfolioHome() {
             >
               An app where you can learn to play the Clarinet, access sheet
               music and find local bands to play with.
+            </p>
+          </div>
+        </a>
+        <a
+          className="absolute border-2 border-solid border-white content-stretch cursor-pointer flex flex-col items-start left-[730px] top-[856.08px] w-[459.804px]"
+          data-name="Macktex Project 4"
+        >
+          <div
+            className="border-0 border-b-2 border-solid border-white h-[394.074px] relative shrink-0 w-full"
+          >
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img
+                alt=""
+                className="absolute inset-0 max-w-none object-cover size-full"
+                src={imgRectangle22}
+              />
+            </div>
+          </div>
+          <div
+            className="[word-break:break-word] border-0 content-stretch flex flex-col gap-[31.65px] h-[234.789px] items-start leading-[normal] not-italic p-[31.65px] relative shrink-0 text-left w-full"
+            data-name="Text"
+          >
+            <p
+              className="font-['Barlow:ExtraBold'] font-extrabold relative shrink-0 text-[38px] text-white w-full"
+            >
+              Macktex
+            </p>
+            <p
+              className="font-['Barlow:Regular'] relative shrink-0 text-[#e1e1e1] text-[18px] tracking-[0.36px] w-full"
+            >
+              A side project building a brand identity for an Electrician and Event Tech.
             </p>
           </div>
         </a>

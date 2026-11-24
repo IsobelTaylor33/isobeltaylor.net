@@ -4,6 +4,7 @@ import Clarinet from "./design/Clarinet"
 import Contact from "./design/Contact"
 import Curious from "./design/Curious"
 import Home from "./design/Home"
+import Macktex from "./design/Macktex"
 import Victorious from "./design/Victorious"
 
 const pages = {
@@ -13,6 +14,7 @@ const pages = {
   curious: Curious,
   victorious: Victorious,
   clarinet: Clarinet,
+  macktex: Macktex,
 } as const
 
 type Page = keyof typeof pages
@@ -57,6 +59,7 @@ export default function App() {
     if (name.includes("Curious Connection")) return navigate("curious")
     if (name.includes("Victorious")) return navigate("victorious")
     if (name.includes("CL Project")) return navigate("clarinet")
+    if (name.includes("Macktex Project")) return navigate("macktex")
     if (label.includes("← Back")) return navigate("home")
     if (label === "Home") return navigate("home")
     if (label === "About") return navigate("about")
@@ -80,7 +83,7 @@ export default function App() {
     }
   }
 
-  const pageClass = ["curious", "victorious", "clarinet"].includes(page)
+  const pageClass = ["curious", "victorious", "clarinet", "macktex"].includes(page)
     ? "case-study"
     : `page-${page}`
 
