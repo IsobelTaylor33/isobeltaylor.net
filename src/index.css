@@ -572,7 +572,8 @@
 
   .site [data-name='nav-links'] p,
   .site [data-name='nav-links'] a {
-    font-size: 12px !important;
+    font-size: clamp(14px, 4vw, 16px) !important;
+    white-space: nowrap;
   }
 
   .page-home [data-name='hero'] {
@@ -771,4 +772,21 @@
 [data-static] [data-name='Scroll'],
 [data-static] .overflow-x-auto {
   overflow: hidden !important;
+}
+
+/* Mobile and small tablet: size the Curious Connection card heading to the card
+   width so the last word and its full stop stay inside the card. */
+@media (max-width: 900px) {
+  .page-home [data-name='selected-work'] > [data-name='Project 1 Curious Connection'] {
+    container-type: inline-size;
+  }
+
+  .page-home
+    [data-name='selected-work']
+    > [data-name='Project 1 Curious Connection']
+    > [data-name='Text']
+    > p:first-child {
+    font-size: clamp(12px, calc((100cqw - 68px) / 12.5), 32px) !important;
+    overflow-wrap: break-word;
+  }
 }
