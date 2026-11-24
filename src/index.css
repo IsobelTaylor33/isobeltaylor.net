@@ -139,6 +139,27 @@
   font-weight: 600;
 }
 @font-face {
+  font-family: 'Inter:Local';
+  src: url('/fonts/Inter-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto:Regular';
+  src: url('/fonts/Roboto-Variable.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto:Bold';
+  src: url('/fonts/Roboto-Variable.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
   font-family: 'Quintessential:Regular';
   src: url('https://static.figma.com/font/Quintessential-Regular_1') format('woff2');
   font-style: normal;
@@ -194,6 +215,14 @@
 @media (min-width: 901px) {
   .site {
     --page-gutter-top: 160px;
+  }
+}
+
+/* Tablet landscape: the case study content is a fixed 980px wide, so it keeps
+   the original 48px side padding here to avoid sideways scrolling. */
+@media (min-width: 901px) and (max-width: 1199px) {
+  .site.case-study {
+    --page-gutter: 48px;
   }
 }
 
@@ -365,7 +394,7 @@
   .page-home [data-name='selected-work'] {
     display: grid !important;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 64px 60px;
+    gap: 60px;
     height: auto !important;
     padding: 0 clamp(48px, 10vw, 120px);
   }
@@ -377,6 +406,7 @@
 
   .page-home [data-name='selected-work'] > [data-name='section-header'] {
     grid-column: 1 / -1;
+    margin-bottom: 4px;
   }
 
   .page-home [data-name='selected-work'] > a > div:first-child {
@@ -414,7 +444,8 @@
   }
 
   .case-study [data-name='works-wrapper'] > *,
-  .case-study [data-name='work-block-0'] > * {
+  .case-study [data-name='work-block-0'] > *,
+  .case-study [data-name='work-content'] > * {
     max-width: 100% !important;
     min-width: 0 !important;
   }
@@ -579,6 +610,7 @@
 
   .page-home [data-name='selected-work'] > [data-name='section-header'] {
     grid-column: auto;
+    margin-bottom: 0;
   }
 
   .page-home [data-name='section-header'] [data-name='text-content'] > p,
@@ -703,9 +735,23 @@
   margin: 0;
 }
 
+/* Desktop: the four project cards sit in a 2 x 2 grid with the same 60px gap
+   between columns and rows. Cards in a row share the same height. */
 @media (min-width: 1200px) {
   .page-home [data-name='selected-work'] {
-    height: 1520px !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, 459.804px);
+    gap: 60px;
+    justify-content: start;
+    align-content: start;
+    padding: 163.08px 0 0 calc(50% - 490px);
+    height: auto !important;
+  }
+
+  .page-home [data-name='selected-work'] > a {
+    position: static !important;
+    left: auto !important;
+    top: auto !important;
   }
 }
 

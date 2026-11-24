@@ -129,12 +129,12 @@ export default function Project4Macktex() {
               data-name="work-content"
             >
               <p
-                className="font-['Roboto:Bold'] font-bold leading-[48px] relative shrink-0 text-[46px] tracking-[0.92px] w-full"
+                className="font-['Roboto:Bold',Roboto,sans-serif] font-bold leading-[48px] relative shrink-0 text-[46px] tracking-[0.92px] w-full"
               >
                 Macktex
               </p>
               <p
-                className="font-['Roboto:Regular'] leading-[1.6] relative shrink-0 text-[22px] w-full"
+                className="font-['Roboto:Regular',Roboto,sans-serif] leading-[1.6] relative shrink-0 text-[22px] w-full"
               >
                 I am very passionate about branding so I decided to develop a brand identity for an Electrician and Event Tech who is looking to go self employed.
               </p>
@@ -165,7 +165,7 @@ export default function Project4Macktex() {
               <p
                 className="font-['Metropolis:Extra_Bold'] leading-none relative shrink-0 text-[55px] tracking-[1.1px] w-full"
               >Brief</p>
-              <p className="font-['Inter:Regular'] font-normal leading-[1.6] relative shrink-0 text-[22px] w-full">Task - Build a brand identity for a company.</p>
+              <p className="font-['Inter:Local','Inter:Regular',Inter,sans-serif] font-normal leading-[1.6] relative shrink-0 text-[22px] w-full">Task - Build a brand identity for a company.</p>
             </div>
           </div>
           <div
@@ -184,7 +184,7 @@ export default function Project4Macktex() {
               <p
                 className="font-['Metropolis:Extra_Bold'] leading-none relative shrink-0 text-[55px] tracking-[1.1px] w-full"
               >Research</p>
-              <div className="font-['Inter:Regular'] font-normal leading-[0] relative shrink-0 text-[22px] w-full whitespace-pre-wrap">
+              <div className="font-['Inter:Local','Inter:Regular',Inter,sans-serif] font-normal leading-[0] relative shrink-0 text-[22px] w-full whitespace-pre-wrap">
                 <p className="leading-[1.6] mb-0">I asked my client to tell me more about themselves and what they wanted the brand to represent.</p>
                 <p className="leading-[1.6] mb-0">{"\u200b"}</p>
                 <p className="leading-[1.6]">Following our conversation, I created a mind map to organise the key points and identify the brand's core values. This gave me a better understanding of the company and how I could communicate this through the branding.</p>
@@ -211,7 +211,7 @@ export default function Project4Macktex() {
               <p
                 className="font-['Metropolis:Extra_Bold'] leading-none relative shrink-0 text-[55px] tracking-[1.1px] w-full"
               >Sketching</p>
-              <div className="font-['Inter:Regular'] font-normal leading-[0] relative shrink-0 text-[22px] w-full whitespace-pre-wrap">
+              <div className="font-['Inter:Local','Inter:Regular',Inter,sans-serif] font-normal leading-[0] relative shrink-0 text-[22px] w-full whitespace-pre-wrap">
                 <p className="leading-[1.6] mb-0">After exploring a range of possible brand names, I selected a few and began sketching out how they could look visually. I presented these ideas to my client, who decided to move forward with the name Macktex.</p>
                 <p className="leading-[1.6] mb-0">{"\u200b"}</p>
                 <p className="leading-[1.6]">I then began sketching different monogram concepts to explore how the name could be represented in the logo.</p>
@@ -238,7 +238,7 @@ export default function Project4Macktex() {
               <p
                 className="font-['Metropolis:Extra_Bold'] leading-none relative shrink-0 text-[55px] tracking-[1.1px] w-full"
               >Digital Experimentation</p>
-              <div className="font-['Inter:Regular'] font-normal leading-[0] relative shrink-0 text-[22px] w-full whitespace-pre-wrap">
+              <div className="font-['Inter:Local','Inter:Regular',Inter,sans-serif] font-normal leading-[0] relative shrink-0 text-[22px] w-full whitespace-pre-wrap">
                 <p className="leading-[1.6]">I used Figma to continue the experimentation. After discussing these with my client, they were not satisfied with the outcome, so I asked questions to better understand what they wanted. They showed me an AI-generated design, which I explained would be expensive to reproduce on clothing and other items due to its complexity. However, it helped me understand they wanted something geometric. This led me to create the final logo, combining an overlapping M and X.</p>
               </div>
               <div
@@ -277,7 +277,7 @@ export default function Project4Macktex() {
               <p
                 className="font-['Metropolis:Extra_Bold'] leading-none relative shrink-0 text-[55px] tracking-[1.1px] w-full"
               >Digital Development</p>
-              <div className="font-['Inter:Regular'] font-normal leading-[0] relative shrink-0 text-[22px] w-full whitespace-pre-wrap">
+              <div className="font-['Inter:Local','Inter:Regular',Inter,sans-serif] font-normal leading-[0] relative shrink-0 text-[22px] w-full whitespace-pre-wrap">
                 <p className="leading-[1.6]">I found a business card template in Figma to show my client what their card could look like. I used the simple colour scheme they wanted, with their name in bold, a line explaining what they do and their contact information. Once my client was happy with the design, they went ahead and placed the order.</p>
               </div>
               <div
@@ -316,7 +316,7 @@ export default function Project4Macktex() {
               <p
                 className="font-['Metropolis:Extra_Bold'] leading-none relative shrink-0 text-[55px] tracking-[1.1px] w-full"
               >Reflection</p>
-              <div className="font-['Inter:Regular'] font-normal leading-[0] relative shrink-0 text-[22px] w-full whitespace-pre-wrap">
+              <div className="font-['Inter:Local','Inter:Regular',Inter,sans-serif] font-normal leading-[0] relative shrink-0 text-[22px] w-full whitespace-pre-wrap">
                 <p className="leading-[1.6] mb-0">I really enjoyed the challenge of branding for someone else, as it helped me to develop my communication skills and learn to ask the right questions to understand what a client wants. This was my first business card design and I was pleased with how professional it looked. It was rewarding to create something that someone will actually use, and their appreciation of the final design was lovely.</p>
                 <p className="leading-[1.6] mb-0">{"\u200b"}</p>
                 <p className="leading-[1.6]">If I had more time, I would have created a landing page and a set of brand guidelines to help maintain consistency across the brand.</p>

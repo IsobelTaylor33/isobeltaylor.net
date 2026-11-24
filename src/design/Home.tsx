@@ -359,12 +359,12 @@ export default function PortfolioHome() {
             data-name="Text"
           >
             <p
-              className="font-['Roboto:Bold'] font-bold relative shrink-0 text-[38px] text-white w-full"
+              className="font-['Roboto:Bold',Roboto,sans-serif] font-bold relative shrink-0 text-[38px] text-white w-full"
             >
               Macktex
             </p>
             <p
-              className="font-['Roboto:Regular'] relative shrink-0 text-[#e1e1e1] text-[18px] tracking-[0.36px] w-full"
+              className="font-['Roboto:Regular',Roboto,sans-serif] relative shrink-0 text-[#e1e1e1] text-[18px] tracking-[0.36px] w-full"
             >
               A side project building a brand identity for an Electrician and Event Tech.
             </p>
