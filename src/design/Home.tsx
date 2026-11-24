@@ -486,7 +486,7 @@ export default function PortfolioHome() {
 
               <a
                 className="block cursor-pointer leading-[0] relative shrink-0"
-                href="https://www.dropbox.com/scl/fi/574s4qd1qggja5y73ytb6/eso.cv-1.pdf?rlkey=dg862laybr3z25w9am6h9rhwr&st=fz13b6ez&dl=0"
+                href="https://www.dropbox.com/scl/fi/17ndbbo044ihcuf0yssln/Isobel-Taylor-cv-general-v1.pdf?rlkey=0rz6ae8r78c3ccj68hxh4otfc&st=eungmfs3&dl=0"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-node-id="0:222"
