@@ -198,7 +198,7 @@ export default function PortfolioAbout() {
               data-name="social-brief"
             >
               <a
-                href="https://www.dropbox.com/scl/fi/zfjptyt8d57toj6uqlail/isobel-taylor-cv-eso-v1.pdf?rlkey=863wwbzno7tfts01b80zvvvjz&st=kz72v4lm&dl=0"
+                href="https://www.dropbox.com/scl/fi/17ndbbo044ihcuf0yssln/Isobel-Taylor-cv-general-v1.pdf?rlkey=0rz6ae8r78c3ccj68hxh4otfc&st=eungmfs3&dl=0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#17171a] border border-[#42c9ae] border-solid content-stretch flex items-center px-[19.44px] py-[12.96px] relative rounded-[8.64px] shrink-0"
