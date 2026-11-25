@@ -178,7 +178,7 @@ export default function PortfolioHome() {
                 </p>
               </div>
               <a
-                href="https://www.dropbox.com/scl/fi/17ndbbo044ihcuf0yssln/Isobel-Taylor-cv-general-v1.pdf?rlkey=0rz6ae8r78c3ccj68hxh4otfc&st=eungmfs3&dl=0"
+                href="https://www.dropbox.com/scl/fi/yigjhl44aukgl9neip0a4/isobel-taylor-cv-general-v1-1.pdf?rlkey=lr67grosf1cpyoniqfo9g9pkp&st=80f1pio2&dl=0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#17171a] border border-[#42c9ae] border-solid content-stretch flex items-center px-[19.44px] py-[12.96px] relative rounded-[8.64px] shrink-0"
